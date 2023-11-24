@@ -8,7 +8,6 @@
 body{
     background: rgba(30, 3, 94, 0.309);
     scroll-behavior: smooth;
-    
 }
 .header{
     position: fixed;
