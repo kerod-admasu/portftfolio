@@ -1,35 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header class="header">
-        <a href="#" class="logo">Portfolio:)</a>
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
 
     <nav class="navbar">
-        <a href="#" class="active">Home</a>
-        <a href="#">About</a>
-        <a href="#">Skills</a>
-        <a href="#">Portfolio</a>
-        <a href="#">contact</a>
+      <a href="#home">Home</a>
+      <a href="#about-section">About</a>
+      <a href="#skill">Skills</a>
+      <a href="#">Projects</a>
+      
+      <a href="#">contact</a>
     </nav>
-    </header>
-    <section class="home">
-    <div class="home-content">
-        <h1>Hi my Name<br> is <br>Kerod Admasu</h1>
-        <h3>Learning to be Developer</h3>
-        <p>A wise man once faced a group of people who were complaining about the same issues over and over again. One day, instead of listening to the complaints, he told them a joke and everyone cracked up laughing.
+  </header>
 
-            Then, the man repeated the joke. A few people smiled.</p>
-    </div>
-    <div class="home-img">
-        <div class="glowing-circle"></div>
+  
 
+    <section class="home" id="home">
+      <div class="home-content">
+
+        <h1 class="me">It's Me<br> Kerod Admasu</h1>
+        <h3 class="me">Learning to be a developer</h3>
+        <div class="me">
+          <img src="k.img.jpg" class="k-img">
+        </div>
+        
+      </div>
+      
+  
+  </section>
+
+  
+  <hr> <br> <br><br>
+
+  <div class="about" id="about-section">
+    <div id="about">
+
+    
+    <h2 class="me">About Me</h2>
+      <p>
+      In the heart of Ethiopia, where the ancient meets the modern, there exists a 21-year-old soul deeply immersed in
+      the fascinating world of computer science. As I embark on my third year of studies, the journey has been nothing
+      short of an exhilarating exploration of both the complexities of code and the rich cultural tapestry of my
+      homeland.<br>
+
+      Growing up in Ethiopia, I was captivated by the diverse landscapes that surrounded me. From the bustling streets
+      of Addis Ababa to the serene beauty of the Ethiopian Highlands, each corner of this country seemed to whisper
+      tales of tradition and progress. It was against this backdrop that my passion for technology began to bloom.
+      <br>
+      My journey into the realm of computer science started as a curious teenager. The allure of creating something
+      tangible out of the digital void, the power to solve real-world problems through lines of code, became a beacon
+      guiding my academic choices. Now, as a third-year student, I find myself diving deeper into the intricacies of
+      algorithms, data structures, and software development.<br>
+
+      Outside the realm of academia, I am an avid explorer of my surroundings. Ethiopia, with its rich history and
+      vibrant culture, provides endless opportunities for discovery. Whether wandering through the historic streets of
+      Lalibela or experiencing the rhythmic beats of traditional music in Gondar, I find inspiration in the fusion of
+      the ancient and the contemporary.
+    </p>
+  </div>
+  </div>
+  
+  <br>
+  <br><br>
+  <hr> <br>
+
+  <!-- bar  -->
+ <div class="skill" id="skill">
+  
+  <h1 class="me">Skills</h1>
+
+  <div class="skills skill1">
+   <span class="sk">html</span>
+   <span class="sk" >100%</span>
+  </div>
+
+  <div class="skills skill2">
+    <span class="sk">css</span>
+    <span class="sk" >75%</span>
+   </div>
+
+     <div class="skills skill3">
+    <span class="sk">python</span>
+    <span class="sk" >60%</span>
+   </div>
+
+  <div class="skills skill4">
+   <span class="sk">java</span>
+   <span class="sk" >30%</span>
+  </div>
+
+  <div class="skills skill5">
+    <span class="sk">phython</span>
+    <span class="sk" >10%</span>
+   </div>
+
+</div>
+
+
+<div class="section-projects">
+  <h1 class="project-header">Projects I have done before</h1>
+
+  <div class="projects">
+
+    <div class="project1 project">
+      <h1>Simple Responsive Website using html and css</h1>
+      <p>project description</p>
+      <button class="btn">sign up</button>
     </div>
-</section>
+
+    <div class="project1 project">
+      <h1>Simple Responsive Website using html and css</h1>
+      <p>project description</p>
+      <button class="btn">sign up</button>
+    </div>
+
+    <div class="project1 project">
+      <h1>Simple Responsive Website using html and css</h1>
+      <p>project description</p>
+      <button class="btn">sign up</button>
+    </div>
+  
+  
+  </div>
+
+
+  
+</div>
+
+<form>
+  <div class="contact"><h3>Contact Me</h3>
+    <div id="contact"></div>
+  <label for="name">Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+  <input type="text" id="name"><br><br>
+
+  <label for="email">Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+  <input type="email" id="email" name="email"><br><br>
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message"></textarea><br><br>
+  <input id="message1" type="submit" value="send message">
+</div>
+</form>
+ 
+  
 </body>
+
+
 </html>
